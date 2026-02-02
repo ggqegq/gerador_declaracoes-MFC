@@ -516,7 +516,7 @@ def gerar_documento_word(dados):
 # ===== INTERFACE PRINCIPAL =====
 st.markdown('<p class="main-header">Gerador de Declarações e Cronograma</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Universidade Federal Fluminense - Instituto de Química</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Desenvolvido por Tadeu L. Araujo</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Desenvolvido por  <strong>Tadeu L. Araujo</strong> - versão 1.0</p>', unsafe_allow_html=True)
 
 # Sidebar com instrucoes
 with st.sidebar:
