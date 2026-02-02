@@ -516,12 +516,13 @@ def gerar_documento_word(dados):
 # ===== INTERFACE PRINCIPAL =====
 st.markdown('<p class="main-header">Gerador de Declarações e Cronograma</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Universidade Federal Fluminense - Instituto de Química</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Desenvolvido por Tadeu L. Araujo</p>', unsafe_allow_html=True)
 
 # Sidebar com instrucoes
 with st.sidebar:
     st.header("Instruções")
     st.markdown("""
-    1. Faça upload do arquivo Excel com os dados das defesas
+    1. Clique no botão "Browse files" e faça upload do arquivo Excel com os dados das defesas
     2. Configure o período letivo
     3. Clique em "Processar"
     4. Baixe o arquivo ZIP com todos os documentos
@@ -558,7 +559,7 @@ uploaded_file = st.file_uploader(
 )
 
 # Configuracoes
-periodo_letivo = st.text_input("Período Letivo", value="2025.2")
+periodo_letivo = st.text_input("Período Letivo", value="2026.1")
 st.session_state.periodo_letivo = periodo_letivo
 
 # Detectar período do nome do arquivo
