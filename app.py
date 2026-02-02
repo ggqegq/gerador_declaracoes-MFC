@@ -725,7 +725,7 @@ if st.session_state.processado and st.session_state.zip_buffer:
 
 # Mensagem inicial
 if not uploaded_file:
-    st.info("👈 **Para começar:** Clique em "Browse files" e faça upload de um arquivo Excel acima.")
+    st.info("👈 **Para começar:** Clique em 'Browse files' e faça upload de um arquivo Excel acima.")
     
     st.markdown("---")
     st.subheader("🎯 Sobre o Sistema")
